@@ -1,0 +1,5 @@
+n = int(input("Enter Position to find nth Term: "))
+a = int(input("Enter First Term: "))
+d = int(input("Enter Common Difference: "))
+nth = (a+ (n-1)*d)
+print("Number at nth Position: ",nth)
