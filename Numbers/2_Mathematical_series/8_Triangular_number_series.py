@@ -1,4 +1,7 @@
-n = int(input("Enter Range: "))
+def triangular(n):
+    ans = (n*(n+1))//2
+    return ans
 
-for i in range(n):
-    triangular = (n*(n+1))/2
+n = int(input("Enter Range: "))
+for i in range(1,n+1):
+    print(triangular(i))
