@@ -9,4 +9,4 @@ for i in n:
 if count > 0:
     print(count)
 else:
-    print("Digit Not Found")    
+    print("Digit Not Found")

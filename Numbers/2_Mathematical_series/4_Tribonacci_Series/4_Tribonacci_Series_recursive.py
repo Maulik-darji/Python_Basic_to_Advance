@@ -5,5 +5,6 @@ def Tribonacci(n):
         return 1
     else:
         return Tribonacci(n-1) + Tribonacci(n-2) + Tribonacci(n-3)
-    
-    
+ran = int(input("Enter Range: "))
+for i in range(ran):
+    print(Tribonacci(i))
