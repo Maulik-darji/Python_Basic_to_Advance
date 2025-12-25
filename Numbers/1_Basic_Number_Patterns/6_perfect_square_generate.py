@@ -1,3 +1,6 @@
-n = int(input("Enter Number To Generrate  Perfect Square: "))
-condition = n*n
-print(f"Perfect Square of {n} :",condition  )
+def square(n):
+    return n*n
+
+n = int(input("Enter Range To Generate  Perfect Square: "))
+for i in range(1, n+1):
+    print(square(i))

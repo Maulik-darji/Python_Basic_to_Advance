@@ -2,6 +2,8 @@ ran = int(input("Enter range to print Fibonacci series: "))
 
 first = 0
 second = 1
+if ran == 0:
+    print("Invalid Range")
 
 if ran >= 1:
     print(first)

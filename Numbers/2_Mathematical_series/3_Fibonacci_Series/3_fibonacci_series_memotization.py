@@ -1,5 +1,5 @@
 memo = {}
-
+#memo is dictionary
 def fib(n):
     if n in memo:
         return memo[n]

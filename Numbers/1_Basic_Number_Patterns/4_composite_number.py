@@ -1,4 +1,4 @@
-n = int(input("Enter Number to Check prime: "))
+n = int(input("Enter Number to Check if it is Composite: "))
 
 if n < 2:
     print("Not Composite ")

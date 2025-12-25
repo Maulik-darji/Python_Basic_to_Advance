@@ -4,7 +4,7 @@ def pell(n):
     if n==1:
         return 1
     
-    a = 0 
+    a = 0
     b = 1
     for i in range(2, n+1):
         new = 2*b + a
